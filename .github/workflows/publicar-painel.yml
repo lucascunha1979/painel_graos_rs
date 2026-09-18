@@ -1,0 +1,46 @@
+name: Publicar painel de graos
+
+on:
+  push:
+    paths:
+      - "painel_graos_rs_github_FINAL.zip"
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Descompactar painel
+        shell: bash
+        run: |
+          unzip -o painel_graos_rs_github_FINAL.zip -d .
+          rm painel_graos_rs_github_FINAL.zip
+
+      - name: Validar estrutura
+        shell: bash
+        run: |
+          test -f index.html
+          test -f styles.css
+          test -f app.js
+          test -d data
+          echo "Arquivos na raiz:"
+          ls -la
+
+      - name: Commitar conteudo descompactado
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteracao para commitar."
+          else
+            git commit -m "Publica painel historico de graos do Rio Grande do Sul"
+            git push
+          fi
