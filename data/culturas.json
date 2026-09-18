@@ -1,0 +1,28 @@
+{
+  "titulo": "Grãos no Rio Grande do Sul",
+  "periodo": "1983-2024",
+  "cultura_padrao": "milho",
+  "culturas": [
+    {
+      "id": "milho",
+      "label": "Milho",
+      "produto_sidra": "Milho (em grão)",
+      "codigo_produto_sidra": "2711",
+      "path": "culturas/milho"
+    },
+    {
+      "id": "arroz",
+      "label": "Arroz",
+      "produto_sidra": "Arroz (em casca)",
+      "codigo_produto_sidra": "2692",
+      "path": "culturas/arroz"
+    },
+    {
+      "id": "trigo",
+      "label": "Trigo",
+      "produto_sidra": "Trigo (em grão)",
+      "codigo_produto_sidra": "2716",
+      "path": "culturas/trigo"
+    }
+  ]
+}

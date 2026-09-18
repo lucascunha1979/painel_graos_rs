@@ -1,0 +1,86 @@
+[
+  {
+    "campo": "periodo_dados",
+    "valor": "1983-2024"
+  },
+  {
+    "campo": "fonte_agricola",
+    "valor": "IBGE - Pesquisa Agrícola Municipal / Tabela 1612"
+  },
+  {
+    "campo": "produto",
+    "valor": "Trigo (em grão)"
+  },
+  {
+    "campo": "codigo_produto_sidra",
+    "valor": "2716"
+  },
+  {
+    "campo": "fonte_malha",
+    "valor": "IBGE - Malha Municipal Digital 2024"
+  },
+  {
+    "campo": "crs_malha",
+    "valor": "SIRGAS 2000 - EPSG:4674"
+  },
+  {
+    "campo": "municipios",
+    "valor": "497"
+  },
+  {
+    "campo": "observacoes_municipio_ano",
+    "valor": "20874"
+  },
+  {
+    "campo": "area_oficial_rs_km2",
+    "valor": "281707.151"
+  },
+  {
+    "campo": "area_soma_497_municipios_km2",
+    "valor": "268623.51399999997"
+  },
+  {
+    "campo": "valor_nominal_periodo",
+    "valor": "1994-2024"
+  },
+  {
+    "campo": "valor_real_periodo",
+    "valor": "1995-2024"
+  },
+  {
+    "campo": "deflator",
+    "valor": "IPCA - média anual dos números-índices mensais"
+  },
+  {
+    "campo": "base_precos",
+    "valor": "R$ médios de 2024"
+  },
+  {
+    "campo": "valor_1994",
+    "valor": "mantido apenas em termos nominais"
+  },
+  {
+    "campo": "malha_referencia_municipal",
+    "valor": "IBGE 2024"
+  },
+  {
+    "campo": "comparabilidade_percentuais_municipais",
+    "valor": "2013-2024"
+  },
+  {
+    "campo": "mapas_1983_2012",
+    "valor": "Valores históricos representados sobre a malha municipal de 2024; não interpretar limites municipais como limites históricos."
+  },
+  {
+    "campo": "classificacao_territorial_historica",
+    "valor": "Recuperada da estrutura territorial validada no painel da soja."
+  },
+  {
+    "campo": "ausencia_nao_e_zero",
+    "valor": "Valores ausentes permanecem nulos; zeros informados permanecem zero."
+  },
+  {
+    "campo": "jenks",
+    "valor": "5 classes fixas no tempo, calculadas separadamente para cada cultura e indicador; zeros e valores ausentes não entram no cálculo."
+  }
+]
